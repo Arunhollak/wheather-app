@@ -85,3 +85,21 @@ button:hover {
   font-weight: bold;
   font-size: 1.2em;
 }
+.bottom-card {
+  grid-column: 1 / -1;
+  justify-self: center;
+  width: 60%;
+  text-align: center;
+}
+.time-card {
+  grid-column: 1 / -1;
+  background-color: #fef3c7; /* light yellow */
+  padding: 20px;
+  font-size: 1.3em;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.15);
+  color: #333;
+}
+
